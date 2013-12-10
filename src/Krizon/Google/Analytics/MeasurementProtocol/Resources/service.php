@@ -71,11 +71,6 @@ return array(
                     'location' => 'postField',
                     'required' => false
                 ),
-                'dr' => array(
-                    'description' => 'Document Referrer',
-                    'location' => 'postField',
-                    'required' => false
-                ),
                 'cn' => array(
                     'description' => 'Campaign Name',
                     'location' => 'postField',
@@ -122,17 +117,35 @@ return array(
                     'default' => 'pageview',
                     'static' => true
                 ),
+                'dr' => array(
+                    'description' => 'Document Referrer',
+                    'location' => 'postField',
+                    'required' => false
+                ),
+                'dl' => array(
+                    'description' => 'Document location',
+                    'location' => 'postField',
+                    'required' => false
+                ),
                 'dh' => array(
                     'description' => 'Document hostname',
                     'location' => 'postField',
+                    'required' => false
                 ),
                 'dp' => array(
-                    'description' => 'Page',
+                    'description' => 'Document path',
                     'location' => 'postField',
+                    'required' => false
                 ),
                 'dt' => array(
-                    'description' => 'Title',
+                    'description' => 'Document title',
                     'location' => 'postField',
+                    'required' => false
+                ),
+                'cd' => array(
+                    'description' => 'Document description',
+                    'location' => 'postField',
+                    'required' => false
                 ),
             )
         ),
