@@ -34,11 +34,6 @@ return array(
                     'location' => 'header',
                     'sentAs' => 'User-Agent',
                     'default' => 'PHP GA Measurement Protocol'
-                ),
-                'test' => array(
-                    'location' => 'postField',
-                    'required' => true,
-                    'default' => 1
                 )
             )
         ),
