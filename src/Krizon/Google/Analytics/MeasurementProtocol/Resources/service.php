@@ -34,7 +34,83 @@ return array(
                     'location' => 'header',
                     'sentAs' => 'User-Agent',
                     'default' => 'PHP GA Measurement Protocol'
-                )
+                ),
+                'sr' => array(
+                    'description' => 'Screen resolution',
+                    'location' => 'postField',
+                    'required' => false
+                ),
+                'vp' => array(
+                    'description' => 'Viewport size',
+                    'location' => 'postField',
+                    'required' => false
+                ),
+                'de' => array(
+                    'description' => 'Document encoding',
+                    'location' => 'postField',
+                    'required' => false,
+                    'default' => 'UTF-8'
+                ),
+                'sd' => array(
+                    'description' => 'Screen colors',
+                    'location' => 'postField',
+                    'required' => false
+                ),
+                'ul' => array(
+                    'description' => 'User language',
+                    'location' => 'postField',
+                    'required' => false
+                ),
+                'je' => array(
+                    'description' => 'Java enabled',
+                    'location' => 'postField',
+                    'required' => false
+                ),
+                'fl' => array(
+                    'description' => 'Flash version',
+                    'location' => 'postField',
+                    'required' => false
+                ),
+                'dr' => array(
+                    'description' => 'Document Referrer',
+                    'location' => 'postField',
+                    'required' => false
+                ),
+                'cn' => array(
+                    'description' => 'Campaign Name',
+                    'location' => 'postField',
+                    'required' => false
+                ),
+                'cs' => array(
+                    'description' => 'Campaign Source',
+                    'location' => 'postField',
+                    'required' => false
+                ),
+                'cm' => array(
+                    'description' => 'Campaign Medium',
+                    'location' => 'postField',
+                    'required' => false
+                ),
+                'ck' => array(
+                    'description' => 'Campaign Keyword',
+                    'location' => 'postField',
+                    'required' => false
+                ),
+                'cc' => array(
+                    'description' => 'Campaign Content',
+                    'location' => 'postField',
+                    'required' => false
+                ),
+                'ci' => array(
+                    'description' => 'Campaign ID',
+                    'location' => 'postField',
+                    'required' => false
+                ),
+                'ni' => array(
+                    'description' => 'Non-interaction Hit',
+                    'location' => 'postField',
+                    'required' => false
+                ),
             )
         ),
         'pageview' => array(
